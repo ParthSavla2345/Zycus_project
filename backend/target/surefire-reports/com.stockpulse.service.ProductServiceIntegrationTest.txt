@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: com.stockpulse.service.ProductServiceIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 9.918 s <<< FAILURE! -- in com.stockpulse.service.ProductServiceIntegrationTest
+com.stockpulse.service.ProductServiceIntegrationTest.testOrderDecreasesStockAndTriggersInventoryLow -- Time elapsed: 0.231 s <<< FAILURE!
+Wanted but not invoked:
+org.springframework.context.ApplicationEventPublisher#0 bean.publishEvent(
+    <any>
+);
+-> at com.stockpulse.service.ProductServiceIntegrationTest.testOrderDecreasesStockAndTriggersInventoryLow(ProductServiceIntegrationTest.java:65)
+Actually, there were zero interactions with this mock.
+
+	at com.stockpulse.service.ProductServiceIntegrationTest.testOrderDecreasesStockAndTriggersInventoryLow(ProductServiceIntegrationTest.java:65)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at java.base/java.util.ArrayList.forEach(Unknown Source)
+	at java.base/java.util.ArrayList.forEach(Unknown Source)
+
+com.stockpulse.service.ProductServiceIntegrationTest.testDemandSpikeDetection -- Time elapsed: 0.011 s <<< FAILURE!
+Wanted but not invoked:
+org.springframework.context.ApplicationEventPublisher#0 bean.publishEvent(
+    <any>
+);
+-> at com.stockpulse.service.ProductServiceIntegrationTest.testDemandSpikeDetection(ProductServiceIntegrationTest.java:76)
+Actually, there were zero interactions with this mock.
+
+	at com.stockpulse.service.ProductServiceIntegrationTest.testDemandSpikeDetection(ProductServiceIntegrationTest.java:76)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at java.base/java.util.ArrayList.forEach(Unknown Source)
+	at java.base/java.util.ArrayList.forEach(Unknown Source)
+

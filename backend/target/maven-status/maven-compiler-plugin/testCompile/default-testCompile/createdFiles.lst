@@ -1,0 +1,4 @@
+com\stockpulse\advisor\RuleBasedCommerceAdvisorTest.class
+com\stockpulse\service\ProductServiceTest.class
+com\stockpulse\service\SuggestionServiceIntegrationTest.class
+com\stockpulse\advisor\AiAdvisorFallbackTest.class

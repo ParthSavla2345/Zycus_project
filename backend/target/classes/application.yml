@@ -1,0 +1,41 @@
+spring:
+  application:
+    name: stockpulse-backend
+
+  datasource:
+    url: jdbc:sqlite:stockpulse.db
+    driver-class-name: org.sqlite.JDBC
+
+  jpa:
+    database-platform: org.hibernate.community.dialect.SQLiteDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+
+  sql:
+    init:
+      mode: always
+
+server:
+  port: 8080
+
+# LLM Configuration — read from environment variables
+llm:
+  base-url: ${LLM_BASE_URL:http://localhost:4000}
+  api-key: ${LLM_API_KEY:changeme}
+  model: ${LLM_MODEL:qwen-cursor}
+  timeout-seconds: 30
+
+# Async thread pool
+async:
+  core-pool-size: 4
+  max-pool-size: 8
+  queue-capacity: 100
+
+logging:
+  level:
+    com.stockpulse: DEBUG
+    org.springframework.web: INFO
