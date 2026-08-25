@@ -1,7 +1,7 @@
 <div align="center">
 
 # ⚡ StockPulse
-### **AI Inventory Replenishment & Real-Time Dynamic Pricing Engine**
+### **AI Inventory Replenishment & Real-Time Dynamic Pricing 9 Engine**
 
 [![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://openjdk.org/)
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2.5-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)](https://spring.io/projects/spring-boot)
