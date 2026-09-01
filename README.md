@@ -201,7 +201,7 @@ mvn test
 - `SuggestionServiceIntegrationTest`: Verifies price update on Accept, stock increment on Accept, reject preservation, and duplicate proposal suppression.
 
 ---
-
+//
 ## 📡 REST API Reference
 
 | Endpoint | Method | Purpose |
